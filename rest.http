@@ -1,0 +1,23 @@
+GET http://localhost:3000/
+
+
+
+###
+POST  http://localhost:3000/products
+
+
+
+###
+POST http://localhost:3000/test/636393
+
+
+###
+POST http://localhost:3000/test/name=iPhone price=$20
+
+
+###
+POST http://localhost:3000/test
+
+Content-Type: application/x-www-form-urlencoded
+
+title=iPhone&price=999
